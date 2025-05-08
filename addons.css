@@ -47,6 +47,10 @@ border: 1px solid rgba(255, 109, 109, 0.15) !important;
     margin-bottom: 28px;
 }
 
+.shop_product_select{
+	transform: translateY(0);
+}
+
 .open_user_prof{
     background: #32221a;
     padding: 5px 13px;
@@ -93,6 +97,28 @@ border-radius: 5px;
 .bans_admin svg{
     fill: #fff !important;
 }
+
+.chat_open {
+    background: #271313;
+    color: #853535;
+    border: solid 1px #401e1e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    right: 6px;
+    bottom: 110px;
+    z-index: 1000;
+    transition: .5s;
+    border-radius: 6px;
+}
+.chat_open svg{
+	fill: #f4ca80;
+}
+
 .bans_admin {
     background-color: #355595 !important;
     color: #fff !important;
