@@ -101,8 +101,7 @@ border-radius: 5px;
 .chat_open {
     background: #271313;
     color: #853535;
-    border: solid 1px #401e1e;
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    border: solid 1px #401e1e !important;
     outline: none;
     cursor: pointer;
     position: fixed;
